@@ -1,0 +1,29 @@
+body {
+	margin: 0;
+	color: seashell;
+	font-family: "Roboto", sans-serif;
+}
+
+.website-container {
+	background-color: rgba(59, 59, 59, 1);
+	// padding: 10px;
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	align-content: center;
+	max-width: 1600px;
+	max-height: 85vh;
+}
+
+.row {
+	display: flex;
+}
+
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.full-width {
+	width: 100%;
+}
