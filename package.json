@@ -10,7 +10,8 @@
     "dev:ssr": "ng run portfolio-angular-ssr:serve-ssr",
     "serve:ssr": "node dist/portfolio-angular-ssr/server/main.js",
     "build:ssr": "ng build && ng run portfolio-angular-ssr:server",
-    "prerender": "ng run portfolio-angular-ssr:prerender"
+    "prerender": "ng run portfolio-angular-ssr:prerender",
+    "serve:prod": "ng build && ng run portfolio-angular-ssr:server && node C:\\GIT\\portfolio-angular-ssr\\dist\\portfolio-angular-ssr\\server\\main.js"
   },
   "private": true,
   "dependencies": {
@@ -25,6 +26,7 @@
     "@angular/platform-browser-dynamic": "~13.0.3",
     "@angular/platform-server": "~13.0.3",
     "@angular/router": "~13.0.3",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@nguniversal/express-engine": "^13.0.1",
     "@types/hammerjs": "^2.0.40",
     "express": "^4.15.2",

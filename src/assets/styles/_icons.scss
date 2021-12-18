@@ -1,0 +1,133 @@
+// $icomoon-font-family: "logos" !default;
+// $icomoon-font-path: "../icon-fonts" !default;
+
+// $icon-angular-path1: "\e907";
+// $icon-angular-path2: "\e908";
+// $icon-angular-path3: "\e909";
+// $icon-Java-Logo-path1: "\e90a";
+// $icon-Java-Logo-path2: "\e90b";
+// $icon-Nodejs_logo-path1: "\e900";
+// $icon-Nodejs_logo-path2: "\e901";
+// $icon-Nodejs_logo-path3: "\e902";
+// $icon-Nodejs_logo-path4: "\e903";
+// $icon-Nodejs_logo-path5: "\e904";
+// $icon-Nodejs_logo-path6: "\e905";
+// $icon-Nodejs_logo-path7: "\e906";
+// $icon-spring-boot: "\e90c";
+
+// @font-face {
+// 	font-family: "#{$icomoon-font-family}";
+// 	src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?lwxcbv")
+// 			format("truetype"),
+// 		url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?lwxcbv")
+// 			format("woff"),
+// 		url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?lwxcbv##{$icomoon-font-family}")
+// 			format("svg");
+// 	font-weight: normal;
+// 	font-style: normal;
+// 	font-display: block;
+// }
+
+// [class^="icon-"],
+// [class*=" icon-"] {
+// 	/* use !important to prevent issues with browser extensions that change fonts */
+// 	font-family: "#{$icomoon-font-family}" !important;
+// 	speak: never;
+// 	font-style: normal;
+// 	font-weight: normal;
+// 	font-variant: normal;
+// 	text-transform: none;
+// 	line-height: 1;
+// 	font-size: 24px;
+
+// 	/* Better Font Rendering =========== */
+// 	-webkit-font-smoothing: antialiased;
+// 	-moz-osx-font-smoothing: grayscale;
+// }
+
+// .icon-angular .path1 {
+// 	&:before {
+// 		content: $icon-angular-path1;
+// 		color: rgb(221, 0, 49);
+// 	}
+// }
+// .icon-angular .path2 {
+// 	&:before {
+// 		content: $icon-angular-path2;
+// 		margin-left: -1em;
+// 		color: rgb(195, 0, 47);
+// 	}
+// }
+// .icon-angular .path3 {
+// 	&:before {
+// 		content: $icon-angular-path3;
+// 		margin-left: -1em;
+// 		color: rgb(255, 255, 255);
+// 	}
+// }
+// .icon-Java-Logo .path1 {
+// 	&:before {
+// 		content: $icon-Java-Logo-path1;
+// 		color: rgb(78, 120, 150);
+// 	}
+// }
+// .icon-Java-Logo .path2 {
+// 	&:before {
+// 		content: $icon-Java-Logo-path2;
+// 		margin-left: -0.52734375em;
+// 		color: rgb(245, 130, 25);
+// 	}
+// }
+// .icon-Nodejs_logo .path1 {
+// 	&:before {
+// 		content: $icon-Nodejs_logo-path1;
+// 		color: rgb(104, 159, 99);
+// 	}
+// }
+// .icon-Nodejs_logo .path2 {
+// 	&:before {
+// 		content: $icon-Nodejs_logo-path2;
+// 		margin-left: -1.6328125em;
+// 		color: rgb(104, 159, 99);
+// 	}
+// }
+// .icon-Nodejs_logo .path3 {
+// 	&:before {
+// 		content: $icon-Nodejs_logo-path3;
+// 		margin-left: -1.6328125em;
+// 		color: rgb(51, 51, 51);
+// 	}
+// }
+// .icon-Nodejs_logo .path4 {
+// 	&:before {
+// 		content: $icon-Nodejs_logo-path4;
+// 		margin-left: -1.6328125em;
+// 		color: rgb(104, 159, 99);
+// 	}
+// }
+// .icon-Nodejs_logo .path5 {
+// 	&:before {
+// 		content: $icon-Nodejs_logo-path5;
+// 		margin-left: -1.6328125em;
+// 		color: rgb(0, 0, 0);
+// 	}
+// }
+// .icon-Nodejs_logo .path6 {
+// 	&:before {
+// 		content: $icon-Nodejs_logo-path6;
+// 		margin-left: -1.6328125em;
+// 		color: rgb(0, 0, 0);
+// 	}
+// }
+// .icon-Nodejs_logo .path7 {
+// 	&:before {
+// 		content: $icon-Nodejs_logo-path7;
+// 		margin-left: -1.6328125em;
+// 		color: rgb(0, 0, 0);
+// 	}
+// }
+// .icon-spring-boot {
+// 	&:before {
+// 		content: $icon-spring-boot;
+// 	}
+// }
