@@ -3,30 +3,18 @@
 
 name: Deploy to Firebase Hosting on merge
 "on":
-    push:
-        branches:
-            - main
+  push:
+    branches:
+      - main
 jobs:
-    build_and_deploy:
-        runs-on: ubuntu-latest
-		steps:
-			- name: Checkout
-			  uses: actions/checkout@v2
-
-            - name: Install Node
-			  uses: actions/setup-node@v2
-  			  with:
-    		    node-version: '16'
-			- run: npm install
-			- run: npm test
-
-			- name: Install Angular CLI
-      			run: npm install -g @angular/cli > /dev/null
-			- name: Build project
-				run: npm run build && npm run portfolio-angular-ssr:server
-				uses: FirebaseExtended/action-hosting-deploy@v0
-				with:
-					repoToken: "${{ secrets.GITHUB_TOKEN }}"
-					firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROTFOLIO_ANGULAR_SSR }}"
-					channelId: live
-					projectId: protfolio-angular-ssr
+  build_and_deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm ci && npm run build
+      - uses: FirebaseExtended/action-hosting-deploy@v0
+        with:
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_PROTFOLIO_ANGULAR_SSR }}"
+          channelId: live
+          projectId: protfolio-angular-ssr
