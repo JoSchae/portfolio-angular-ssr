@@ -1,4 +1,26 @@
+@import "../assets/styles/constants";
+
+.website-container {
+	background-color: $background-color;
+	height: 100vh;
+	display: flex;
+}
+
 .content {
 	flex: 1 1 auto;
 	padding: 20px;
+}
+
+.inner-container {
+	max-width: 1600px;
+	max-height: 85vh;
+	margin: auto;
+	height: 100%;
+	align-items: center;
+	justify-content: center;
+}
+
+app-sidebar {
+	height: 100%;
+	min-width: 410px;
 }

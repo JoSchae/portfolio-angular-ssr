@@ -1,0 +1,4 @@
+<h1>{{article?.header}}</h1>
+<section *ngFor="let section of article?.sections">
+	<app-article-section [sectionHeader]="section.header" [sectionText]="section.text"></app-article-section>
+</section>
