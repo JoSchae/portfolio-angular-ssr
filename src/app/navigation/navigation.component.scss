@@ -1,8 +1,26 @@
 .nav-container {
-	padding: 15px;
+	padding: 10px;
 	box-sizing: border-box;
-	border: 2px solid white;
-	width: 100%;
+	border: 2px solid #5b5b5b;
+	border-left: none;
 	display: flex;
+	flex: 1 1 auto;
+	border-right: none;
+	flex-wrap: wrap;
+
+	button {
+		margin: 5px 10px;
+		font-size: 16px;
+		width: 100px;
+	}
+}
+
+.nav-end-part {
+	border: 2px solid #5b5b5b;
+	border-left: none;
+	border-radius: 0 100% 0 0;
+	max-width: 50px;
+	min-width: 30px;
 	flex: 1 0 auto;
+	box-sizing: border-box;
 }

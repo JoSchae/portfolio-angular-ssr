@@ -24,7 +24,11 @@
 
 .label {
 	position: absolute;
-	bottom: 10px;
+	bottom: 6px;
 	left: 50%;
 	transform: translateX(-50%);
+	border: 2px solid #76cf22;
+	border-radius: 6px;
+	padding: 2px 6px;
+	box-shadow: 2px 2px 1px rgb(49, 49, 49);
 }

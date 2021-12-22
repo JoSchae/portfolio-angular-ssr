@@ -30,6 +30,11 @@
               "src/favicon.ico",
               "src/assets"
             ],
+			"stylePreprocessorOptions": {
+				"includePaths": [
+					"src/assets/styles"
+				]
+			},
             "styles": [
               "src/styles.scss"
             ],
@@ -57,6 +62,7 @@
               ],
               "outputHashing": "all"
             },
+
             "development": {
               "buildOptimizer": false,
               "optimization": false,
